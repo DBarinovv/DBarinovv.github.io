@@ -1,0 +1,198 @@
+body 
+{
+    background-image: url(../images/main_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 300px;
+}
+
+.main_title 
+{
+    /* color: #8e44ad; */
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62px;
+    text-shadow: 0px 0px 50px blue;
+    height: 400px;
+
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+
+    background-image: url("../images/all_team_photo.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo 
+{
+    float: right;
+    margin-right: 80px;
+    position: relative;
+
+    margin-top: -20px;
+}
+
+.logo p 
+{
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px purple;
+    text-align: center;
+    width: 300px;
+    font-style: italic;
+}
+
+.logo img 
+{
+    /* width: 300px; */
+    height: 400px;
+}
+
+.team_photos
+{
+    margin-left: 80px;
+    margin-top: -20px;
+}
+  
+.team_photos p
+{
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px purple;
+    text-align: center;
+    width: 300px;
+    font-style: italic;
+}
+
+.team_photos img
+{
+    object-fit: cover;
+    max-width: 300px;
+    width: 300px;
+    height: 400px;
+    margin-left: 80px;
+    box-shadow: 0px 1px 5px black;
+    margin: auto;
+}
+
+.team_photos .barinov_denis 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 0s;
+}
+
+.team_photos .aliev_alen 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 3s;
+}
+
+.team_photos .belyakov_stepan 
+{
+    position: absolute;
+    
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 6s;
+}
+
+.team_photos .pyth_vlad 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 9s;
+}
+
+.team_photos .zezin_anton 
+{
+    position: absolute;
+
+    opacity: 0;
+    
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 12s;
+}
+
+.team_photos .kleshev_maksim 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 15s;
+}
+
+.team_photos .maltsev_dmitry 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 18s;
+}
+
+.team_photos .sudakov_elisey 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 21s;
+}
+
+.team_photos .sudakov_dmitry 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 24s;
+}
+
+.team_photos .safin_aleksey 
+{
+    position: absolute;
+
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 27s;
+}
+
+.team_photos .subbotin_pavel 
+{
+    position: absolute;
+    
+    opacity: 0;
+
+    animation: downUp 33s infinite ease-in-out; 
+    animation-delay: 30s;
+}
+
+@keyframes downUp 
+{ 
+  from {opacity: 0;}
+  10% {opacity: 1;} 
+  15% {opacity: 0;}
+  to {opacity: 0;}
+}
